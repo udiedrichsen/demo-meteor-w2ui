@@ -1,0 +1,33 @@
+<head>
+  <title>demo-meteor-w2ui</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor with w2ui !</h1>
+
+  {{> hello}}
+
+  {{> w2ui}}
+
+</body>
+
+<template name="hello">
+
+    This is just a very simple Meteor demo for the wonderful jquery
+    extension  <a href="http://w2ui.com/web/home">w2ui</a>.
+
+    In this demo I just copied the example code from <a href="http://w2ui.com/web/get-started">w2ui get started</a>
+
+    A lot of <a href="http://w2ui.com/web/demo">demos</a> and excellent <a href="http://w2ui.com/web/docs">docs</a> are available.
+    Check out the <a href="">github repo.</a>.
+
+    <p><em>This is a very early version of my package. Not tested very much and I am not sure
+    if I will use it. So right now just a POC.</em></p>
+
+    <p>Cheers, Uli</p>
+</template>
+
+
+<template name="w2ui">
+    <div id="grid" style="width: 100%; height: 250px;"></div>
+</template>
