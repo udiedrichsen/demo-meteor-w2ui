@@ -1,7 +1,7 @@
 # demo-meteor-w2ui
 
  This is just a very simple Meteor demo for the wonderful w2ui jquery
-extension http://w2ui.com/web/home"
+extension http://w2ui.com
 
 I running meteor demo is deployed at: http://demo-w2ui.meteor.com/
 
